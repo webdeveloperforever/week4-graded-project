@@ -62,7 +62,7 @@ public class Main {
 				break;
 			case 2:
 				bser.retriveAllBooks();
-				System.out.println("enter the Book name id to delete the book");
+				System.out.println("Please Enter the Book name id you want to delete");
 				book_id = sc.nextInt();
 				res = bser.deleteBook(book_id);
 				System.out.println(res);

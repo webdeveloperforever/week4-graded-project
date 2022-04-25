@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 
 import com.bean.BookStore;
 import com.bean.LogTable;
-
+@SuppressWarnings("deprecation")
 public class BookStoreDao {
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyy");
 	LocalDateTime now = LocalDateTime.now();
